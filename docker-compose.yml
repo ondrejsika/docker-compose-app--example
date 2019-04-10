@@ -2,6 +2,6 @@ version: '3.6'
 services:
     counter:
         build: .
-        image: reg.istry.cz/ondrejsika/docker-compose-app--example
+        image: reg.istry.cz/ondrejsika/docker-compose-app--example:new-branch
         ports:
             - ${PORT:-80}:80
